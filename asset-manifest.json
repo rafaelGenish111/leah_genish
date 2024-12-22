@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.88bfa2de.css",
+    "main.js": "/static/js/main.d1a3d73d.js",
+    "static/media/logo_leah_genish.png": "/static/media/logo_leah_genish.eb9f83db01ee3b25e042.png",
+    "index.html": "/index.html",
+    "main.88bfa2de.css.map": "/static/css/main.88bfa2de.css.map",
+    "main.d1a3d73d.js.map": "/static/js/main.d1a3d73d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88bfa2de.css",
+    "static/js/main.d1a3d73d.js"
+  ]
+}
