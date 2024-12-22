@@ -87,7 +87,7 @@ export default function AddDecleration() {
         e.preventDefault()
         try {
             if (validateId) {
-                const res = await fetch('http://localhost:7070/declerations/add', {
+                const res = await fetch('https://leah-genish.onrender.com/declerations/add', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

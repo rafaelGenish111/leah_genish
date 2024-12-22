@@ -14,7 +14,7 @@ export default function Login({ onLogin }) {
     const handleSubmit = async e => {
         e.preventDefault()
         try {
-            const res = await fetch('http://localhost:7070/user/signin', {
+            const res = await fetch('https://leah-genish.onrender.com/user/signin', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

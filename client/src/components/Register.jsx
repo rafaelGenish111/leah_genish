@@ -14,7 +14,7 @@ export default function Register() {
     const handleSubmit = async e => {
         e.preventDefault()
         try {
-            const res = await fetch('http://localhost:7070/user/signup', {
+            const res = await fetch('https://leah-genish.onrender.com/user/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

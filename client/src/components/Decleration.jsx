@@ -20,7 +20,7 @@ export default function Decleration() {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const res = await fetch(`http://localhost:7070/declerations/decleration/${decId}`, {
+                const res = await fetch(`https://leah-genish.onrender.com/declerations/decleration/${decId}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
